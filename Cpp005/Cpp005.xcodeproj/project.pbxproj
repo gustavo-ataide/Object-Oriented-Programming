@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C0D9FC92ACA884D005B0A01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FC82ACA884D005B0A01 /* main.cpp */; };
+		9C0D9FCC2ACA88BB005B0A01 /* Trouxa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FCA2ACA88BB005B0A01 /* Trouxa.cpp */; };
+		9C0D9FCF2ACA8914005B0A01 /* Bruxo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FCD2ACA8914005B0A01 /* Bruxo.cpp */; };
+		9C0D9FD42ACA894C005B0A01 /* varinha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FD12ACA894C005B0A01 /* varinha.cpp */; };
+		9C0D9FD52ACA894C005B0A01 /* Capa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FD22ACA894C005B0A01 /* Capa.cpp */; };
+		9C0D9FD82ACA89BF005B0A01 /* Humano.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FD62ACA89BF005B0A01 /* Humano.cpp */; };
+		9C0D9FDB2ACA90EB005B0A01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FDA2ACA90EB005B0A01 /* main.cpp */; };
+		9C0D9FDE2ACA917D005B0A01 /* Pessoa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FDC2ACA917D005B0A01 /* Pessoa.cpp */; };
+		9C0D9FE12ACA9232005B0A01 /* PessoaFisica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FDF2ACA9232005B0A01 /* PessoaFisica.cpp */; };
+		9C0D9FE42ACA9318005B0A01 /* PessoaJuridica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FE22ACA9318005B0A01 /* PessoaJuridica.cpp */; };
+		9C0D9FE72ACA9989005B0A01 /* Cliente.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FE52ACA9989005B0A01 /* Cliente.cpp */; };
+		9C0D9FED2ACB15EA005B0A01 /* Funcionario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D9FEB2ACB15EA005B0A01 /* Funcionario.cpp */; };
+		9CA930AB2AC9787200185824 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930AA2AC9787200185824 /* main.cpp */; };
+		9CA930AE2AC9788400185824 /* animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930AC2AC9788400185824 /* animal.cpp */; };
+		9CA930B12AC97A4900185824 /* cachorro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930AF2AC97A4900185824 /* cachorro.cpp */; };
+		9CA930B42AC97C9C00185824 /* gato.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930B22AC97C9C00185824 /* gato.cpp */; };
+		9CA930B72AC981F000185824 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930B62AC981F000185824 /* main.cpp */; };
+		9CA930BA2AC9821900185824 /* Livro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930B82AC9821900185824 /* Livro.cpp */; };
+		9CA930BD2AC9824100185824 /* LivroMonstruosoDosMonstros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930BB2AC9824100185824 /* LivroMonstruosoDosMonstros.cpp */; };
+		9CA930C02AC9824D00185824 /* LivroInvisivelDaInvisibilidade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930BE2AC9824D00185824 /* LivroInvisivelDaInvisibilidade.cpp */; };
+		9CA930C42AC98A9500185824 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930C32AC98A9500185824 /* main.cpp */; };
+		9CA930C72AC98AA600185824 /* Imovel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930C52AC98AA600185824 /* Imovel.cpp */; };
+		9CA930CA2AC98ACA00185824 /* ImovelNovo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930C82AC98ACA00185824 /* ImovelNovo.cpp */; };
+		9CA930CD2AC98B3500185824 /* ImovelVelho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CA930CB2AC98B3500185824 /* ImovelVelho.cpp */; };
+		9CD2222E2ACB679C00D2A910 /* Empresa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2222C2ACB679C00D2A910 /* Empresa.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CA9309D2AC7D0E300185824 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C0D9FC82ACA884D005B0A01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C0D9FCA2ACA88BB005B0A01 /* Trouxa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trouxa.cpp; sourceTree = "<group>"; };
+		9C0D9FCB2ACA88BB005B0A01 /* Trouxa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Trouxa.hpp; sourceTree = "<group>"; };
+		9C0D9FCD2ACA8914005B0A01 /* Bruxo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bruxo.cpp; sourceTree = "<group>"; };
+		9C0D9FCE2ACA8914005B0A01 /* Bruxo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bruxo.hpp; sourceTree = "<group>"; };
+		9C0D9FD02ACA894C005B0A01 /* Capa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Capa.hpp; sourceTree = "<group>"; };
+		9C0D9FD12ACA894C005B0A01 /* varinha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = varinha.cpp; sourceTree = "<group>"; };
+		9C0D9FD22ACA894C005B0A01 /* Capa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Capa.cpp; sourceTree = "<group>"; };
+		9C0D9FD32ACA894C005B0A01 /* varinha.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = varinha.hpp; sourceTree = "<group>"; };
+		9C0D9FD62ACA89BF005B0A01 /* Humano.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Humano.cpp; sourceTree = "<group>"; };
+		9C0D9FD72ACA89BF005B0A01 /* Humano.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Humano.hpp; sourceTree = "<group>"; };
+		9C0D9FDA2ACA90EB005B0A01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C0D9FDC2ACA917D005B0A01 /* Pessoa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pessoa.cpp; sourceTree = "<group>"; };
+		9C0D9FDD2ACA917D005B0A01 /* Pessoa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pessoa.hpp; sourceTree = "<group>"; };
+		9C0D9FDF2ACA9232005B0A01 /* PessoaFisica.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PessoaFisica.cpp; sourceTree = "<group>"; };
+		9C0D9FE02ACA9232005B0A01 /* PessoaFisica.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PessoaFisica.hpp; sourceTree = "<group>"; };
+		9C0D9FE22ACA9318005B0A01 /* PessoaJuridica.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PessoaJuridica.cpp; sourceTree = "<group>"; };
+		9C0D9FE32ACA9318005B0A01 /* PessoaJuridica.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PessoaJuridica.hpp; sourceTree = "<group>"; };
+		9C0D9FE52ACA9989005B0A01 /* Cliente.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cliente.cpp; sourceTree = "<group>"; };
+		9C0D9FE62ACA9989005B0A01 /* Cliente.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cliente.hpp; sourceTree = "<group>"; };
+		9C0D9FEB2ACB15EA005B0A01 /* Funcionario.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Funcionario.cpp; sourceTree = "<group>"; };
+		9C0D9FEC2ACB15EA005B0A01 /* Funcionario.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Funcionario.hpp; sourceTree = "<group>"; };
+		9CA9309F2AC7D0E300185824 /* Cpp005 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp005; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA930AA2AC9787200185824 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CA930AC2AC9788400185824 /* animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animal.cpp; sourceTree = "<group>"; };
+		9CA930AD2AC9788400185824 /* animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = animal.hpp; sourceTree = "<group>"; };
+		9CA930AF2AC97A4900185824 /* cachorro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cachorro.cpp; sourceTree = "<group>"; };
+		9CA930B02AC97A4900185824 /* cachorro.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cachorro.hpp; sourceTree = "<group>"; };
+		9CA930B22AC97C9C00185824 /* gato.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gato.cpp; sourceTree = "<group>"; };
+		9CA930B32AC97C9C00185824 /* gato.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gato.hpp; sourceTree = "<group>"; };
+		9CA930B62AC981F000185824 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CA930B82AC9821900185824 /* Livro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Livro.cpp; sourceTree = "<group>"; };
+		9CA930B92AC9821900185824 /* Livro.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Livro.hpp; sourceTree = "<group>"; };
+		9CA930BB2AC9824100185824 /* LivroMonstruosoDosMonstros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LivroMonstruosoDosMonstros.cpp; sourceTree = "<group>"; };
+		9CA930BC2AC9824100185824 /* LivroMonstruosoDosMonstros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LivroMonstruosoDosMonstros.hpp; sourceTree = "<group>"; };
+		9CA930BE2AC9824D00185824 /* LivroInvisivelDaInvisibilidade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LivroInvisivelDaInvisibilidade.cpp; sourceTree = "<group>"; };
+		9CA930BF2AC9824D00185824 /* LivroInvisivelDaInvisibilidade.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LivroInvisivelDaInvisibilidade.hpp; sourceTree = "<group>"; };
+		9CA930C32AC98A9500185824 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CA930C52AC98AA600185824 /* Imovel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Imovel.cpp; sourceTree = "<group>"; };
+		9CA930C62AC98AA600185824 /* Imovel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Imovel.hpp; sourceTree = "<group>"; };
+		9CA930C82AC98ACA00185824 /* ImovelNovo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImovelNovo.cpp; sourceTree = "<group>"; };
+		9CA930C92AC98ACA00185824 /* ImovelNovo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImovelNovo.hpp; sourceTree = "<group>"; };
+		9CA930CB2AC98B3500185824 /* ImovelVelho.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImovelVelho.cpp; sourceTree = "<group>"; };
+		9CA930CC2AC98B3500185824 /* ImovelVelho.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImovelVelho.hpp; sourceTree = "<group>"; };
+		9CD2222C2ACB679C00D2A910 /* Empresa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Empresa.cpp; sourceTree = "<group>"; };
+		9CD2222D2ACB679C00D2A910 /* Empresa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Empresa.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA9309C2AC7D0E300185824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C0D9FC72ACA882D005B0A01 /* q09 */ = {
+			isa = PBXGroup;
+			children = (
+				9C0D9FC82ACA884D005B0A01 /* main.cpp */,
+				9C0D9FCA2ACA88BB005B0A01 /* Trouxa.cpp */,
+				9C0D9FCB2ACA88BB005B0A01 /* Trouxa.hpp */,
+				9C0D9FCD2ACA8914005B0A01 /* Bruxo.cpp */,
+				9C0D9FCE2ACA8914005B0A01 /* Bruxo.hpp */,
+				9C0D9FD22ACA894C005B0A01 /* Capa.cpp */,
+				9C0D9FD02ACA894C005B0A01 /* Capa.hpp */,
+				9C0D9FD12ACA894C005B0A01 /* varinha.cpp */,
+				9C0D9FD32ACA894C005B0A01 /* varinha.hpp */,
+				9C0D9FD62ACA89BF005B0A01 /* Humano.cpp */,
+				9C0D9FD72ACA89BF005B0A01 /* Humano.hpp */,
+			);
+			path = q09;
+			sourceTree = "<group>";
+		};
+		9C0D9FD92ACA90D5005B0A01 /* q11, 12 & 13 */ = {
+			isa = PBXGroup;
+			children = (
+				9C0D9FDA2ACA90EB005B0A01 /* main.cpp */,
+				9CD2222C2ACB679C00D2A910 /* Empresa.cpp */,
+				9CD2222D2ACB679C00D2A910 /* Empresa.hpp */,
+				9C0D9FDC2ACA917D005B0A01 /* Pessoa.cpp */,
+				9C0D9FDF2ACA9232005B0A01 /* PessoaFisica.cpp */,
+				9C0D9FE22ACA9318005B0A01 /* PessoaJuridica.cpp */,
+				9C0D9FE32ACA9318005B0A01 /* PessoaJuridica.hpp */,
+				9C0D9FE02ACA9232005B0A01 /* PessoaFisica.hpp */,
+				9C0D9FDD2ACA917D005B0A01 /* Pessoa.hpp */,
+				9C0D9FE52ACA9989005B0A01 /* Cliente.cpp */,
+				9C0D9FE62ACA9989005B0A01 /* Cliente.hpp */,
+				9C0D9FEB2ACB15EA005B0A01 /* Funcionario.cpp */,
+				9C0D9FEC2ACB15EA005B0A01 /* Funcionario.hpp */,
+			);
+			path = "q11, 12 & 13";
+			sourceTree = "<group>";
+		};
+		9CA930962AC7D0E300185824 = {
+			isa = PBXGroup;
+			children = (
+				9CA930A12AC7D0E300185824 /* Cpp005 */,
+				9CA930A02AC7D0E300185824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA930A02AC7D0E300185824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA9309F2AC7D0E300185824 /* Cpp005 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA930A12AC7D0E300185824 /* Cpp005 */ = {
+			isa = PBXGroup;
+			children = (
+				9CA930A92AC7D0F400185824 /* q07 */,
+				9CA930B52AC981D700185824 /* q08 */,
+				9C0D9FC72ACA882D005B0A01 /* q09 */,
+				9CA930C12AC9864B00185824 /* q10 */,
+				9C0D9FD92ACA90D5005B0A01 /* q11, 12 & 13 */,
+			);
+			path = Cpp005;
+			sourceTree = "<group>";
+		};
+		9CA930A92AC7D0F400185824 /* q07 */ = {
+			isa = PBXGroup;
+			children = (
+				9CA930B22AC97C9C00185824 /* gato.cpp */,
+				9CA930B32AC97C9C00185824 /* gato.hpp */,
+				9CA930AA2AC9787200185824 /* main.cpp */,
+				9CA930AC2AC9788400185824 /* animal.cpp */,
+				9CA930AF2AC97A4900185824 /* cachorro.cpp */,
+				9CA930B02AC97A4900185824 /* cachorro.hpp */,
+				9CA930AD2AC9788400185824 /* animal.hpp */,
+			);
+			path = q07;
+			sourceTree = "<group>";
+		};
+		9CA930B52AC981D700185824 /* q08 */ = {
+			isa = PBXGroup;
+			children = (
+				9CA930B62AC981F000185824 /* main.cpp */,
+				9CA930B82AC9821900185824 /* Livro.cpp */,
+				9CA930B92AC9821900185824 /* Livro.hpp */,
+				9CA930BB2AC9824100185824 /* LivroMonstruosoDosMonstros.cpp */,
+				9CA930BE2AC9824D00185824 /* LivroInvisivelDaInvisibilidade.cpp */,
+				9CA930BF2AC9824D00185824 /* LivroInvisivelDaInvisibilidade.hpp */,
+				9CA930BC2AC9824100185824 /* LivroMonstruosoDosMonstros.hpp */,
+			);
+			path = q08;
+			sourceTree = "<group>";
+		};
+		9CA930C12AC9864B00185824 /* q10 */ = {
+			isa = PBXGroup;
+			children = (
+				9CA930C32AC98A9500185824 /* main.cpp */,
+				9CA930C82AC98ACA00185824 /* ImovelNovo.cpp */,
+				9CA930C92AC98ACA00185824 /* ImovelNovo.hpp */,
+				9CA930C52AC98AA600185824 /* Imovel.cpp */,
+				9CA930CB2AC98B3500185824 /* ImovelVelho.cpp */,
+				9CA930CC2AC98B3500185824 /* ImovelVelho.hpp */,
+				9CA930C62AC98AA600185824 /* Imovel.hpp */,
+			);
+			path = q10;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA9309E2AC7D0E300185824 /* Cpp005 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA930A62AC7D0E300185824 /* Build configuration list for PBXNativeTarget "Cpp005" */;
+			buildPhases = (
+				9CA9309B2AC7D0E300185824 /* Sources */,
+				9CA9309C2AC7D0E300185824 /* Frameworks */,
+				9CA9309D2AC7D0E300185824 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cpp005;
+			productName = Cpp005;
+			productReference = 9CA9309F2AC7D0E300185824 /* Cpp005 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA930972AC7D0E300185824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9CA9309E2AC7D0E300185824 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9CA9309A2AC7D0E300185824 /* Build configuration list for PBXProject "Cpp005" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA930962AC7D0E300185824;
+			productRefGroup = 9CA930A02AC7D0E300185824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA9309E2AC7D0E300185824 /* Cpp005 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA9309B2AC7D0E300185824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA930CA2AC98ACA00185824 /* ImovelNovo.cpp in Sources */,
+				9CA930BA2AC9821900185824 /* Livro.cpp in Sources */,
+				9CA930CD2AC98B3500185824 /* ImovelVelho.cpp in Sources */,
+				9C0D9FD52ACA894C005B0A01 /* Capa.cpp in Sources */,
+				9CD2222E2ACB679C00D2A910 /* Empresa.cpp in Sources */,
+				9CA930C02AC9824D00185824 /* LivroInvisivelDaInvisibilidade.cpp in Sources */,
+				9CA930C42AC98A9500185824 /* main.cpp in Sources */,
+				9C0D9FD42ACA894C005B0A01 /* varinha.cpp in Sources */,
+				9CA930B42AC97C9C00185824 /* gato.cpp in Sources */,
+				9C0D9FE72ACA9989005B0A01 /* Cliente.cpp in Sources */,
+				9C0D9FCF2ACA8914005B0A01 /* Bruxo.cpp in Sources */,
+				9C0D9FED2ACB15EA005B0A01 /* Funcionario.cpp in Sources */,
+				9C0D9FE42ACA9318005B0A01 /* PessoaJuridica.cpp in Sources */,
+				9C0D9FCC2ACA88BB005B0A01 /* Trouxa.cpp in Sources */,
+				9CA930AB2AC9787200185824 /* main.cpp in Sources */,
+				9CA930BD2AC9824100185824 /* LivroMonstruosoDosMonstros.cpp in Sources */,
+				9CA930AE2AC9788400185824 /* animal.cpp in Sources */,
+				9C0D9FDB2ACA90EB005B0A01 /* main.cpp in Sources */,
+				9C0D9FD82ACA89BF005B0A01 /* Humano.cpp in Sources */,
+				9CA930B72AC981F000185824 /* main.cpp in Sources */,
+				9C0D9FC92ACA884D005B0A01 /* main.cpp in Sources */,
+				9CA930B12AC97A4900185824 /* cachorro.cpp in Sources */,
+				9C0D9FDE2ACA917D005B0A01 /* Pessoa.cpp in Sources */,
+				9CA930C72AC98AA600185824 /* Imovel.cpp in Sources */,
+				9C0D9FE12ACA9232005B0A01 /* PessoaFisica.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CA930A42AC7D0E300185824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CA930A52AC7D0E300185824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CA930A72AC7D0E300185824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CA930A82AC7D0E300185824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA9309A2AC7D0E300185824 /* Build configuration list for PBXProject "Cpp005" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA930A42AC7D0E300185824 /* Debug */,
+				9CA930A52AC7D0E300185824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA930A62AC7D0E300185824 /* Build configuration list for PBXNativeTarget "Cpp005" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA930A72AC7D0E300185824 /* Debug */,
+				9CA930A82AC7D0E300185824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA930972AC7D0E300185824 /* Project object */;
+}
